@@ -1,0 +1,15 @@
+{
+  "name": "sf-fix",
+  "version": "1.0.0",
+  "description": "It transforms cloudformation step functions definitions into cli command format",
+  "main": "index.js",
+  "bin": {
+    "sf-fix": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
