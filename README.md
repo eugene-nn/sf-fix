@@ -3,18 +3,18 @@ When you redeploy your step functions into localstack environment with the serve
 Use this script as npm hook to fix the issue.
 
 # Getting Started
-###Prerequisites
+### Prerequisites
 - Docker
 - Localstack available on edge port
 - aws-cli
 - node.js
 - npm 
 
-###Install npm module
+### Install npm module
 ```bash
 npm install -SD sf-fix
 ```
-###Add a hook to you package.json
+### Add a hook to you package.json
 
 ```json
 ...
@@ -23,5 +23,5 @@ npm install -SD sf-fix
 ...
 ``` 
 
-##Debug and dry run
+## Debug and dry run
 To debug the module please provide `DEBUG=true` environment variable, or it can be used along with `DRY_RUN=true` variable in order to print execution command.   
