@@ -1,3 +1,6 @@
+# Deprecated
+Please use latest localstack docker image. It supports create/update cloudfourmation template within stepfunctions definition.
+  
 # Introduction 
 When you redeploy your step functions into localstack environment with the serverless framework most likely it will ignore your changes.
 Use this script as npm hook to fix the issue.
